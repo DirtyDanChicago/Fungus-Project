@@ -438,6 +438,7 @@ GameObject:
   - component: {fileID: 597292639}
   - component: {fileID: 597292638}
   - component: {fileID: 597292642}
+  - component: {fileID: 597292635}
   m_Layer: 0
   m_Name: Intro
   m_TagString: Untagged
@@ -512,6 +513,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 597292614}
   commandList:
+  - {fileID: 597292635}
   - {fileID: 597292631}
   - {fileID: 597292613}
   - {fileID: 597292618}
@@ -562,7 +564,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 597292615}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 597292635}
   variables: []
   description: 
   stepPause: 0
@@ -1057,6 +1060,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &597292635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597292612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  indentLevel: 0
+  duration: 1
+  targetView: {fileID: 1897987607}
+  waitUntilFinished: 1
+  targetCamera: {fileID: 0}
 --- !u!114 &597292636
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2047,7 +2068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1163789968}
+  selectedFlowchart: {fileID: 597292616}
 --- !u!4 &1696192487
 Transform:
   m_ObjectHideFlags: 1
@@ -3024,19 +3045,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 150.2238, y: 137.49025}
+  scrollPos: {x: -90.03254, y: 13.182388}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 243
-  zoom: 0.41076127
+  zoom: 0.860761
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2142353355}
+  selectedCommands:
+  - {fileID: 2142353372}
   variables: []
   description: 
   stepPause: 0
@@ -3354,7 +3377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 349.45874
     y: 206.04124
-    width: 120
+    width: 124.35281
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
