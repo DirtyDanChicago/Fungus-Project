@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -135.33955
+    x: -139.33955
     y: 248.82979
     width: 206
     height: 40
